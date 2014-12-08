@@ -195,23 +195,7 @@ Cell selection stuff.
 \end_layout
 
 \begin_layout Standard
-For analyses, cells had to be registered to a flat plane, due to the curvature
- of the retina as well as distortions in the tissue from preparation and
- cutting.
- All points were first corrected for tissue shrinkage, and then transformed
- by the rigid transform that best fits the points of the off-SACs to the
- x-y plane.
- A triangular lattice was superimposed on the x-y plane, and for each point
- on the lattice, a translation along the z axis was determined such that
- the mean of all SAC points in a neighborhood around the lattice point would
- be zero.
- For each lattice point, a stretching transformation was also determined
- such that the mean distance along the z axis between the off-SAC and on-SAC
- points in the neighborhood was equal to the mean of their distances across
- all lattice points.
- Each point in each cell was then transformed by a sum of the transformations
- determined at their neighboring lattice points, weighted inversely with
- their distance from those lattice points.
+~My alignment stuff~
 \end_layout
 
 \begin_layout Subsection*
